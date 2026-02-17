@@ -50,7 +50,8 @@
           const card = document.createElement('article'); card.className='card-item fav-card';
           card.style.cursor = 'pointer';
           card.addEventListener('click', (e) => { if (e.target.tagName !== 'BUTTON') window.location.href=`rivoluzione.html?id=${encodeURIComponent(rev.id)}`; });
-          if (rev.image) { const img=document.createElement('img'); img.src=rev.image; img.alt=rev.title; card.appendChild(img); }
+        
+          if (rev.image) { const img=document.createElement('img'); img.src="images/" + rev.image; img.alt=rev.title; card.appendChild(img); }
           const content = document.createElement('div'); content.className='fav-content';
           const h3=document.createElement('h3'); h3.textContent=rev.title; content.appendChild(h3);
           const p=document.createElement('p'); p.textContent=rev.subtitle || ''; content.appendChild(p);
