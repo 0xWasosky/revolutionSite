@@ -21,11 +21,12 @@
         "sizes": "512x512"
         }
     ],
-    "start_url": "https://revolution-site-ttpz.vercel.app/",
+    "start_url": "https://revolution-site-e1xz.vercel.app/",
     "display": "fullscreen",
     "theme_color": "#393E46",
     "background_color": "#393E46",
     "orientation": "portrait-primary"
 }
+
 
 
